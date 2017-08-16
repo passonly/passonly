@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	
+	<!-- 用户模块
+		* name ： 保证各个模块唯一
+		* namespace ： 默认访问路径 
+		
+		http://localhost:8080/user/findById.action?sysUserQueryCustom.id = 53
+		
+		功能：/user
+		方法：findById
+	-->
+	<package name="user" namespace="/user" extends="base">
+		<action name="*" class="sysUserAction" method="{1}">
+			<result name="findById">/business/user/findSysUserById.jsp</result>
+		</action>
+	</package>
+	
+</struts>

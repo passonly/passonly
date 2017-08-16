@@ -1,0 +1,5 @@
+package cn.itcast.yycg.user.web.vo;
+
+public class SysUserVo {
+
+}

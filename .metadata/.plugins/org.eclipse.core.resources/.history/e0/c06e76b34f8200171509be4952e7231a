@@ -1,0 +1,28 @@
+package cn.itcast.yycg.user.web.action;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+
+import cn.itcast.yycg.domain.po.SysUser;
+import cn.itcast.yycg.user.web.vo.SysUserVo;
+
+@Controller
+@Scope("prototype")
+public class SysUserAction extends ActionSupport implements ModelDriven<SysUserVo>{
+
+	private SysUserVo sysUserVo = new SysUserVo();
+	
+	@Override
+	public SysUserVo getModel() {
+		return sysUserVo;
+	}
+	
+	public String findById(String id){
+		
+		return "findById";
+	}
+
+}

@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Wed Aug 16 15:18:37 CST 2017
+org.eclipse.jst.j2ee.server\:yycg-domain-0808=WEB-INF/lib/yycg-domain-0808-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:yycg-framework-0808=WEB-INF/lib/yycg-framework-0808-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:yycg-dao-0808=WEB-INF/lib/yycg-dao-0808-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:yycg-service-0808=WEB-INF/lib/yycg-service-0808-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\yycg_repository\\org\\springframework\\spring-web\\4.2.4.RELEASE\\spring-web-4.2.4.RELEASE.jar=WEB-INF/lib/spring-web-4.2.4.RELEASE.jar
+org.eclipse.jst.j2ee.server\:yycg-utils-0808=WEB-INF/lib/yycg-utils-0808-0.0.1-SNAPSHOT.jar

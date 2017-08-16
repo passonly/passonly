@@ -1,0 +1,10 @@
+package cn.itcast.yycg.user.dao;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations={"classpath*:spring/applicationContext.xml","classpath*:spring/applicationContext-*.xml"})
+public class TestDao {
+
+}

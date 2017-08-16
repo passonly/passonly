@@ -1,0 +1,26 @@
+package cn.itcast.yycg.user.dao.impl;
+
+import org.apache.shiro.session.mgt.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.stereotype.Repository;
+
+import cn.itcast.yycg.user.dao.SysUserDao;
+
+@Repository
+public class SysUserDaoImpl extends HibernateDaoSupport implements SysUserDao {
+
+	@Autowired
+	public void setSF(SessionFactory sessionFactory){
+		super.setSessionFactory(sessionFactory);
+	}
+	
+	
+	@Override
+	public SysUserDao findSysUserById(String id) {
+		
+		
+		return null;
+	}
+
+}

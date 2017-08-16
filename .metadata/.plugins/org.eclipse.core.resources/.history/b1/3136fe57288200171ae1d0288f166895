@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="yycg-web-0808">
+        <property name="context-root" value="yycg-web-0808"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,14 @@
+package cn.itcast.yycg.user.service.impl;
+
+import cn.itcast.yycg.domain.po.SysUser;
+import cn.itcast.yycg.user.service.SysUserService;
+
+public class SysUserServiceImpl implements SysUserService {
+
+	@Override
+	public SysUser findSysUserById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

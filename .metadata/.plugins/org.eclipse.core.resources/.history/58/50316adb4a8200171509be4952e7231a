@@ -1,0 +1,7 @@
+package cn.itcast.yycg.user.dao.impl;
+
+import SysUserDao;
+
+public class SysUserDaoImpl extends SysUserDao {
+
+}
