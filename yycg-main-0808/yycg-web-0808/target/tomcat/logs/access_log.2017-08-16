@@ -19,3 +19,17 @@
 0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:46:18 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 404 1163 http-bio-8080-exec-10 2
 0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:46:18 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 404 1163 http-bio-8080-exec-10 2
 0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:46:19 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 404 1163 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:49:20 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-1 572
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:11 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-2 10
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:12 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-3 9
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:13 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-4 9
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:13 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-5 10
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:13 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-6 10
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:13 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-7 24
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:13 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-8 33
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:13 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-9 5
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:14 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-10 7
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:14 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-1 8
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:14 +0800] "GET /user/findById.action?sysUserQueryCustom.id%20=%2053 HTTP/1.1" 500 7767 http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:28 +0800] "GET /user/findById.action?sysUserQueryCustom.id=53 HTTP/1.1" 200 389 http-bio-8080-exec-3 2656
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:16:50:29 +0800] "GET /user/findById.action?sysUserQueryCustom.id=53 HTTP/1.1" 200 389 http-bio-8080-exec-3 16
